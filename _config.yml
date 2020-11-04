@@ -104,4 +104,4 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: http://github.com
+  repo: http://github.com/huymii/huymii.github.io.git
