@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+/* Bgcolor, color tuy chinh */
+body{
+    font-family: Georgia, 'Times New Roman', Times, Serif;
+    font-weight: 300;
+    line-height: 1.75em;
+}
+
+/* Element*/
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+div{
+    display: block;
+}
+
+
+/* header */
+header{
+    display: block;
+}
+.mii-header {
+    background-color: #0a89c0;
+}
+.mii-header div {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: calc(840px - 32px);
+    padding: .875em 16px;
+    position: relative;
+}
+.mii-header a {
+    color: #fff;
+    text-decoration: none;
+}
+a, a:visited {
+    color: #0a89c0;
+}
+
+
+/* footer*/
+footer{
+    border-top: 1px solid #c2c2c2;
+    margin: calc(1.5em - 1px) 0 0;
+}
+.mii-footer div{
+    margin: 0 auto;
+    max-width: calc(840px - 32px);
+    padding: 1.25em 16px 1.25em;
+    position: relative;
+}
+.mii-footer h2 {
+    font-size: 1em;
+    line-height: 1.375em;
+    margin: 0 0 .5em;
+}
+.back-to-top {
+    bottom: 1.275em;
+    font-size: .8em;
+    font-weight: 600;
+    line-height: 2em;
+    position: absolute;
+    right: 16px;
+}
+a, a:visited {
+    color: #0a89c0;
+}
+.mii-footer a {
+    text-decoration: none;
+}
